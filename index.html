@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Chrispin Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Steve <span>Chrispin</span>
+        </a>
+
+        <i class='bx bx-menu' id="menu"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="vivi.mp4" type="video/mp4">
+    </video>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Steve</span></h1>
+            <h3 class="text-animation">I'm a</h3>
+            <p>
+                Web Developer I have a strong foundation in web development technologies, including HTML, CSS,
+                and JavaScript. I have built several personal projects,
+                demonstrating my ability to create responsive and user-friendly web applications. My understanding
+                of version control with Git and GitHub ensures that my code is well-organized and collaborative-ready.
+                I am eager to apply my skills in a professional setting and contribute to impactful projects.
+            </p>
+
+            <div class="social-icon">
+                <a href="#" onmouseenter="sound4.play()"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" onmouseenter="sound4.play()""><i class='bx bxl-github'></i></a>
+                <a href="#" onmouseenter="sound4.play()"><i class='bx bxl-instagram'></i></a>
+                <a href="#" onmouseenter="sound4.play()"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" onmouseenter="sound1.play()"  class="btn">Hire</a>
+                <a href="#contact" onmouseenter="sound1.play()" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="profile.webp" alt="Profile picture of Steve Chrispin">
+        </div>
+    </section>
+
+    <audio id="sound1" src="audio1.mp3"></audio>
+    <audio id="sound2" src="audio2.mp3"></audio>
+    <audio id="sound3" src="audio3.mp3"></audio>
+    <audio id="sound4" src="audio4.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
